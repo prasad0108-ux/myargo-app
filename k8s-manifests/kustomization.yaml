@@ -3,3 +3,4 @@ kind: Kustomization
 resources:
   - namespace.yaml
   - deployment.yaml
+  - service.yaml  # Add this line to include the service
